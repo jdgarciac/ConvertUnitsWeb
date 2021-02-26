@@ -7,10 +7,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions (
-        features = "src/test/resources/features/convertirUnidades.feature",
+        features = "src/test/resources/features/convertUnits.feature",
         glue = "jgarcia.retoweb.stepdefinitions",
-        snippets = SnippetType.CAMELCASE,
-        tags = "@convert_area"
+        snippets = SnippetType.CAMELCASE
 )
 
 public class RunnerTags {
